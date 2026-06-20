@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Father's Day 💗</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Gaegu', cursive;
+    min-height:100vh;
+    background:linear-gradient(135deg,#ffdbe9,#ffeaf4,#fff5fa);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    position:relative;
+}
+
+.container{
+    width:min(90%,700px);
+    text-align:center;
+    background:rgba(255,255,255,0.6);
+    backdrop-filter:blur(10px);
+    padding:40px;
+    border-radius:35px;
+    box-shadow:0 10px 30px rgba(255,105,180,0.15);
+    z-index:2;
+}
+
+h1{
+    font-size:3.5rem;
+    color:#ff5c9c;
+    margin-bottom:20px;
+}
+
+.message{
+    color:#6e4d62;
+    font-size:1.4rem;
+    line-height:1.8;
+}
+
+button{
+    margin-top:25px;
+    padding:12px 28px;
+    border:none;
+    border-radius:999px;
+    background:#ff88b8;
+    color:white;
+    font-family:'Gaegu', cursive;
+    font-size:1.3rem;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+}
+
+.decoration{
+    position:absolute;
+    font-size:2rem;
+    color:#ffb6d2;
+    animation:float 8s linear infinite;
+}
+
+@keyframes float{
+    from{
+        transform:translateY(100vh);
+        opacity:0;
+    }
+    20%{
+        opacity:1;
+    }
+    to{
+        transform:translateY(-150px);
+        opacity:0;
+    }
+}
+
+.footer{
+    margin-top:20px;
+    color:#c56a95;
+    font-size:1.2rem;
+}
+</style>
+</head>
+
+<body>
+
+<div class="decoration" style="left:10%; animation-delay:0s;">♡</div>
+<div class="decoration" style="left:25%; animation-delay:2s;">✦</div>
+<div class="decoration" style="left:40%; animation-delay:4s;">🎀</div>
+<div class="decoration" style="left:60%; animation-delay:1s;">♡</div>
+<div class="decoration" style="left:75%; animation-delay:3s;">✦</div>
+<div class="decoration" style="left:90%; animation-delay:5s;">💗</div>
+
+<div class="container">
+
+<h1>🎀 Happy Father's Day 💗</h1>
+
+<div class="message">
+Dear Dad,<br><br>
+
+Thank you for your endless love, support, and encouragement.<br>
+You've always been my biggest strength, my guide, and my hero.<br><br>
+
+Thank you for every sacrifice you've made and every lesson you've taught me.<br>
+I am so lucky to have you in my life. 💕<br><br>
+
+Happy Father's Day! ♡
+</div>
+
+<button onclick="showMessage()">
+Open Surprise ✨
+</button>
+
+<div class="footer">
+Made with love 💗
+</div>
+
+</div>
+
+<script>
+function showMessage(){
+    alert("💗 Thank you for being the best dad ever. Happy Father's Day! 💗");
+}
+</script>
+
+</body>
+</html>
